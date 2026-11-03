@@ -1,0 +1,24 @@
+{
+ "model": "infini",
+ "repo": "(new) lucidrains/infini-transformer-pytorch 0.2.1",
+ "target_repo": "LM_Dec_Long_InfiniAttention",
+ "category": "Long",
+ "upstream": "lucidrains/infini-transformer-pytorch (MIT), pip 0.2.1",
+ "unified": [
+  "segments of 128, compressive memory detached every 2 segments"
+ ],
+ "torch": "2.5.1+cu124",
+ "gpu": "NVIDIA GeForce RTX 3070 Ti",
+ "stage": "overfit",
+ "started": "2026-10-26 18:20:47",
+ "smoke": false,
+ "first_ce": 5.683021545410156,
+ "last_ce": 0.0073215048760175705,
+ "passed": true,
+ "pass_loss": 0.5,
+ "steps": 400,
+ "seconds": 31.1,
+ "lr": 0.001,
+ "note": "overfit uses Adam 1e-3 on 4 x 256 bytes; only an implementation check",
+ "bf16": true
+}
